@@ -8,7 +8,7 @@ import random
 
 def thesaurus_app(word, dictionary):
 
-    rand_num = random.randint(0, 3)
+    rand_num = random.randint(0, 4)
     app_response = dictionary[word][rand_num]
     print("A synonym for {} is {}.".format(word, app_response))
 
@@ -43,5 +43,8 @@ if __name__ == '__main__':
         print("\t-{}".format(key))
 
     entered_word = input("\nWhat word would you like a synonym for: ").lower().strip()
-    thesaurus_app(entered_word, thesaurus_dict)
+    if entered_word in thesaurus_dict.keys():
+        thesaurus_app(entered_word, thesaurus_dict)
+    else:
+        print("I'm sorry, that word is not in thesaurus app. Try again!")
 
