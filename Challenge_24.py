@@ -36,10 +36,10 @@ if __name__ == '__main__':
 
     print("Welcome to the Frequency Analysis App")
 
-    phrase_one = input("\nEnter a word of phrase to count the occurrence of each letter: ").lower()
+    first_phrase = input("\nEnter a word of phrase to count the occurrence of each letter: ").lower()
     print("\nHere is the frequency analysis from key phrase 1:")
-    frequency_analysis(phrase_one)
+    frequency_analysis(first_phrase)
 
-    phrase_second = input("\nEnter a word of phrase to count the occurrence of each letter: ").lower()
+    second_phrase = input("\nEnter a word of phrase to count the occurrence of each letter: ").lower()
     print("\nHere is the frequency analysis from key phrase 2:")
-    frequency_analysis(phrase_second)
+    frequency_analysis(second_phrase)
