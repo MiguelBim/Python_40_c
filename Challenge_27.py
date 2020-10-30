@@ -33,8 +33,6 @@ def even_odd_app(nums_chain):
 
 if __name__ == '__main__':
 
-    #1, 2, 3, 6,18,9,4,13,22
-    #5,1, 66, 23, 5, 234, 6
     print("Welcome to the Even Odd Number sorter App")
     run = True
     while run:
