@@ -37,7 +37,11 @@ def guess_word():
                     uncover_letter = False
                 else:
                     continue
-            print("".join(hidden_word))
+            answer = "".join(hidden_word)
+            if answer == category_values[word_num]:
+                print("\nSorry, you did not guess it. The answer is: {}".format(answer))
+                return
+            print(answer)
             guess_counter += 1
 
 
