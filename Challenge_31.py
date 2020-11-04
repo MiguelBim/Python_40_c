@@ -31,7 +31,7 @@ if __name__ == '__main__':
         play_again = input("\nWould you like to roll again (y/n): ").lower().strip()
         if play_again == 'n':
             run_app = False
-            print("Thank you")
+            print("Thank you for using the Python Dice App.")
         elif play_again != 'y':
             run_app = False
             print('\nThat is not a valid option. Exiting from app.')
