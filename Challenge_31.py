@@ -1,4 +1,4 @@
-# CHALLENGE NUMBER 30
+# CHALLENGE NUMBER 31
 # TOPIC: Funct
 # Dice App
 # https://www.udemy.com/course/the-art-of-doing/learn/lecture/17060876#overview
