@@ -1,2 +1,2 @@
-# Python_40_c
+# Python 40 Challenges
  
